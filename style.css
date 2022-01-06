@@ -140,3 +140,38 @@ header {
 }
 
 /* fourth section ends */
+
+
+.about-me {
+    margin-bottom: 150px;
+}
+
+.first-box-about {
+    width: 33%;
+    padding-right: 100px;
+}
+.about-me-heading {
+    border-bottom: 3px solid crimson;
+    padding-bottom: 12px;
+    
+}
+
+.last-box-about {
+    width: 67%;
+}
+.last-box-about p {
+    margin-bottom: 30px;
+}
+.last-box-about p:nth-child(2) {
+    margin-bottom: 50px;
+}
+.btn-yellow {
+    background: #f19f4d;
+    margin-left: 10px;
+}
+
+.btn-yellow:hover {
+    background: #ff9226;
+}
+
+/* about me section complete */
