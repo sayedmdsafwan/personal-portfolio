@@ -12,7 +12,6 @@
 
 .d-flex {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -34,9 +33,18 @@ h5 {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 25px;
+}
+h2 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+h3 {
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: capitalize;
 }
 header {
     padding: 120px 0;
@@ -98,7 +106,6 @@ header {
 
 .mission-heading {
     text-align: center;
-    font-size: 45px;
 }
 .card > h3 {
     font-size: 28px;
@@ -106,3 +113,14 @@ header {
 
 
 /* second section ends */
+
+
+.negative-margin {
+    margin-left: -17%;
+}
+
+.third-section {
+    margin-bottom: 150px;
+}
+
+/* third section ends */
