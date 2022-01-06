@@ -69,8 +69,40 @@ header {
     margin: 0 auto;
 }
 
-.line-break {
+.different-color {
     color: #FFAD5A;
 }
 
 /* header ends */
+
+
+.second-section {
+    padding: 0 0 100px 0;
+}
+.card {
+    width: 33%;
+    padding: 50px 30px;
+    margin: 50px 15px;
+    background: #4f9da61a;
+    border-radius: 20px;
+}
+.card:last-child {
+    background: rgba(210, 105, 30, 0.109);
+}
+.card:nth-child(2) {
+    background: rgba(220, 20, 60, 0.103);
+}
+.card-image {
+    width: 170px;
+}
+
+.mission-heading {
+    text-align: center;
+    font-size: 45px;
+}
+.card > h3 {
+    font-size: 28px;
+}
+
+
+/* second section ends */
