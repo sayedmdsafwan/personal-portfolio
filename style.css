@@ -36,11 +36,15 @@ h1 {
     font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 25px;
+    border-left: 3px solid crimson;
+    padding-left: 20px;
 }
+
 h2 {
     font-size: 45px;
     text-transform: capitalize;
 }
+
 h3 {
     font-size: 30px;
     line-height: 45px;
@@ -50,7 +54,7 @@ header {
     padding: 120px 0;
 }
 .btn {
-    background-color: #FF5959;
+    background-color: #ff5959;
     display: inline-block;
     padding: 10px 35px;
     border-radius: 5px;
@@ -78,11 +82,10 @@ header {
 }
 
 .different-color {
-    color: #FFAD5A;
+    color: #ffad5a;
 }
 
 /* header ends */
-
 
 .second-section {
     padding: 0 0 100px 0;
@@ -111,9 +114,7 @@ header {
     font-size: 28px;
 }
 
-
 /* second section ends */
-
 
 .negative-margin {
     margin-left: -17%;
@@ -124,3 +125,18 @@ header {
 }
 
 /* third section ends */
+
+
+.positive-margin {
+    margin-right: 17%;
+}
+
+.fourth-section-left-box {
+    padding-right: 80px;
+}
+
+.fourth-section {
+    margin-bottom: 150px;
+}
+
+/* fourth section ends */
