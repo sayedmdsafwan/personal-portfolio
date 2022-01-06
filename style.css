@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -44,6 +44,7 @@ h1 {
 h2 {
     font-size: 45px;
     text-transform: capitalize;
+    line-height: 60px;
 }
 
 h3 {
@@ -127,9 +128,8 @@ header {
 
 /* third section ends */
 
-
-.positive-margin {
-    margin-right: 17%;
+.negative-margin-right {
+    margin-right: -8%;
 }
 
 .fourth-section-left-box {
@@ -142,7 +142,6 @@ header {
 
 /* fourth section ends */
 
-
 .about-me {
     margin-bottom: 150px;
 }
@@ -154,7 +153,6 @@ header {
 .about-me-heading {
     border-bottom: 3px solid crimson;
     padding-bottom: 12px;
-    
 }
 
 .last-box-about {
@@ -177,7 +175,6 @@ header {
 
 /* about me section complete */
 
-
 footer {
     background: rgb(19, 19, 19);
     padding: 30px 0;
@@ -190,7 +187,7 @@ footer h3 {
 }
 
 .different-color-2 {
-    color: #FF5958;
+    color: #ff5958;
     font-family: lobster;
 }
 
@@ -198,3 +195,12 @@ footer p {
     color: rgb(110, 110, 110);
     text-align: center;
 }
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+/* footer complete */
