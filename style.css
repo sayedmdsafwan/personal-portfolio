@@ -30,6 +30,7 @@ h4,
 h5 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    color: #333333;
 }
 
 h1 {
@@ -175,3 +176,25 @@ header {
 }
 
 /* about me section complete */
+
+
+footer {
+    background: rgb(19, 19, 19);
+    padding: 30px 0;
+}
+
+footer h3 {
+    font-family: lobster;
+    color: rgb(240, 232, 221);
+    text-align: center;
+}
+
+.different-color-2 {
+    color: #FF5958;
+    font-family: lobster;
+}
+
+footer p {
+    color: rgb(110, 110, 110);
+    text-align: center;
+}
